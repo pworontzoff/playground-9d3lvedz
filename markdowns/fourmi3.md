@@ -6,4 +6,4 @@ Avec pour résultat final au bout des 472 cases parcourues par la fourmi :
 
 ![fourmi3](img/ex3.png)
 
-@[Exercice 3]({"stubs": ["main.c"],"command": "sh /project/target/run.sh", "project" : "fourmi3"})
+@[Exercice 3]({"stubs": ["main.c"],"command": "sh /project/target/run.sh", "project" : "exercices"})
