@@ -1,4 +1,4 @@
-title : Exercices Papers animés - La fourmi de Langton - Solutions
+title : Exercices Papers animés - La fourmi de Langton - Enoncés
 
 # Table of contents
 plan:
@@ -22,28 +22,8 @@ projects:
     runner:
       name: techio/cmake-gcc-runner
       version: latest
-  fourmi1:
-    root: "/Fourmi"
-    runner:
-      name: techio/cmake-gcc-runner
-      version: latest
-  fourmi2:
-    root: "/Fourmi2"
-    runner:
-      name: techio/cmake-gcc-runner
-      version: latest
-  fourmi3:
-    root: "/Fourmi3"
-    runner:
-      name: techio/cmake-gcc-runner
-      version: latest
-  fourmi4:
-    root: "/Fourmi4"
-    runner:
-      name: techio/cmake-gcc-runner
-      version: latest
-  fourmi5:
-    root: "/Fourmi5"
+  exercices:
+    root: "/exercices"
     runner:
       name: techio/cmake-gcc-runner
       version: latest
