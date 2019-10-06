@@ -4,7 +4,7 @@ Commençons par une petite "séance cinoche" :
 
 https://www.youtube.com/watch?v=qZRYGxF6D3w
 
-([Télécharger](https://github.com/pworontzoff/playground-AnimPaper-Ant-Enonces/blob/master/markdowns/videos/animEx2.mp4?raw=true))
+([Télécharger](https://github.com/pworontzoff/playground-AnimPaper-Ant-Enonces/blob/master/markdowns/videos/La%20fourmi%20de%20Langton_Science%20%C3%A9tonnante%20%2321.mp4?raw=true))
 
 
 Le challenge consiste à reproduire les animations de David Louapre (le vidéaste de la chaîne "science étonnante" que vous venez de voir dans la vidéo).
