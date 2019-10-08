@@ -6,4 +6,4 @@ Avec pour résultat final au bout des 11000 déplacements de la fourmi, la mise 
 
 ![fourmi5](img/ex5.png)
 
-@[Exercice 5]({"stubs": ["main.c"],"command": "sh /project/target/run.sh", "project" : "fourmi5"})
+@[Exercice 5]({"stubs": ["main.c"],"command": "sh /project/target/run.sh", "project" : "exercices"})
