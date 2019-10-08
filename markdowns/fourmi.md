@@ -6,14 +6,13 @@ https://www.youtube.com/watch?v=qZRYGxF6D3w
 
 ([Télécharger](https://www.dropbox.com/s/ay8mr2rndmn1yur/La%20fourmi%20de%20Langton%20-%20Science%20%C3%A9tonnante%20%2321.mp4?dl=0))
 
-
 Le challenge consiste à reproduire les animations de David Louapre (le vidéaste de la chaîne "science étonnante" que vous venez de voir dans la vidéo).
 
-Dans ce premier exercice, on va s'attaquer à la toute première animation (sans dessiner la fourmi, bien sûr !) : https://youtu.be/qZRYGxF6D3w?t=73 ([Télécharger](https://github.com/pworontzoff/playground-AnimPaper-Ant-Enonces/blob/master/markdowns/videos/animEx1.mp4?raw=true))
+Dans ce premier exercice, on va s'attaquer à la toute première animation (sans dessiner la fourmi, bien sûr !) : https://youtu.be/qZRYGxF6D3w?t=73 ([Télécharger](https://github.com/pworontzoff/playground-AnimPaper-Ant/blob/master/markdowns/videos/animEx1.mp4?raw=true))
 
 Pour cela, nous allons coder les règles de déplacements de la fourmi :
-- si la case sous la fourmi est blanche, elle repeint cette case en noir, puis elle tourne d'1/4 de tour à droite, puis elle avance d'une case ;
-- si la case sous la fourmi est noire, elle repeint cette case en blanc, puis elle tourne d'1/4 de tour à gauche, puis elle avance d'une case.
+- si la case sous la fourmi n'est pas coloriée, elle colorie cette case, puis elle tourne d'1/4 de tour à droite, puis elle avance d'une case ;
+- si la case sous la fourmi est coloriée, elle efface la couleur de cette case, puis elle tourne d'1/4 de tour à gauche, puis elle avance d'une case.
 
 Pour cet exercice, on se limite à 8 étapes (8 répétitions), afin d'obtenir ce résultat (sans la fourmi) :
 
@@ -31,6 +30,6 @@ La difficulté de l'exercice n'est pas tant dans l'implémentation des règles s
     * une qui fait tourner la fourmi d'1/4 de tour vers la droite puis avancer d'une case ;
     * l'autre qui fait tourner la fourmi d'1/4 de tour vers la gauche puis avancer d'une case.
     
-Bon travail !
+Bon travail ;-)
 
-@[Exercice 1]({"stubs": ["main.c"],"command": "sh /project/target/run.sh", "project" : "exercices"})
+@[Exercice 1]({"stubs": ["main.c"],"command": "sh /project/target/run.sh", "project" : "fourmi1"})
