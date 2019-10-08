@@ -8,4 +8,4 @@ On doit donc ici modifier légèrement l'exercice précédent (fourmi v1) pour o
 
 ![fourmi2](img/ex2.png)
 
-@[Exercice 2]({"stubs": ["main.c"],"command": "sh /project/target/run.sh", "project" : "fourmi2"})
+@[Exercice 2]({"stubs": ["main.c"],"command": "sh /project/target/run.sh", "project" : "exercices"})
