@@ -32,4 +32,4 @@ La difficulté de l'exercice n'est pas tant dans l'implémentation des règles s
     
 Bon travail ;-)
 
-@[Exercice 1]({"stubs": ["main.c"],"command": "sh /project/target/run.sh", "project" : "fourmi1"})
+@[Exercice 1]({"stubs": ["main.c"],"command": "sh /project/target/run.sh", "project" : "exercices"})
