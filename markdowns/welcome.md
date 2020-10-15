@@ -12,7 +12,7 @@ Ces laboratoires sont une variante "animée" des papers. Les seules nouveautés 
 Un `paper animé` est un quadrillage dans lequel on va pouvoir se déplacer, colorier et effacer des cases. Le "curseur" de coloriage se trouve initialement toujours dans le coin supérieur gauche et chaque coloriage ou effacement est une étape de l'animation.
 
 Les fonctions permettant de manipuler un `paper animé` :
-- `init_paper(nb_lignes,nb_colonnes,taille,delai_anim,PasAPas)` : Permet de créer un `paper` contenant `nb_lignes` lignes et `nb_colonnes` colonnes. `taille` est la dimension en pixel d'une case et `delai_anim` est le temps de pause (en seconde) entre chaque coloriages ou effacements de cases. Ce délai peut-être décimal, par exemple 0.05 pour 5 centièmes de seconde. Le paramètre `useStepping` sera exploité plus tard, il devra être mis à 0 pour le moment ;
+- `init_paper(nb_lignes,nb_colonnes,taille,delai_anim,ctrl_les_pas)` : Permet de créer un `paper` contenant `nb_lignes` lignes et `nb_colonnes` colonnes. `taille` est la dimension en pixel d'une case et `delai_anim` est le temps de pause (en seconde) entre chaque coloriages ou effacements de cases. Ce délai peut-être décimal, par exemple 0.05 pour 5 centièmes de seconde. Le paramètre `ctrl_les_pas` sera exploité plus tard, il devra être mis à 0 pour le moment ;
 - `move_left()` : déplace le "curseur" de coloriage d'une case à gauche ;
 - `move_right()` : déplace le "curseur" de coloriage d'une case à droite ;
 - `move_down()` : déplace le "curseur" de coloriage d'une case vers le bas ;
