@@ -1,4 +1,4 @@
-# Exercice 1 - La fourmi de langton, v1 : 8 étapes, grille de 8 x 8 (centrée en 3,3), cases de 25 pixels de côtés, une étape dure 0.5s, fourmi initialement tête en haut
+# Exercice 1 - La fourmi de langton, v1 : 8 étapes, grille de 7 x 7 (centrée en 3,3), cases de 25 pixels de côtés, une étape dure 0.5s, fourmi initialement tête en haut
 
 Commençons par une petite "séance cinoche" :
 
